@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Raleway;
+}
+/* HEADER */
+header {
+    background-color: #000000;
+    text-align:center;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+header img {
+    width: 100%;
+}
+/* PRIMERA SECCIÓN */
+.bloque1 .lineabloque {
+    width: 1500px;
+    margin: 50px auto;
+}
+
+.lineabloque img {
+    width: 25%;
+}
+
+.lineabloque .texto {
+    width: 50%;
+    margin-right: 4%;
+    padding: 0 125px;
+}
+
+.lineabloque .texto .desc-section {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.lineabloque img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+/* SEGUNDA SECCIÓN */
+.bloque2 {
+    background-color: #1e1a13;
+    padding-bottom: 70px;
+}
+
+.bloque2 h2 {
+    font-size: 40px;
+    font-weight: 500;
+    padding: 70px 0 30px 0;
+    text-align: center;
+}
+
+.bloque2 .icons-section {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.icons-section article {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 33%;
+}
+
+.bloque2 i {
+    font-size: 60px;
+}
+
+.bloque2 p {
+    font-size: 24px;
+    font-weight: 300;
+}
+/* TERCERA SECCIÓN */
+.bloque3 .imagenes {
+    margin: 80px auto;
+    width: 80%;
+}
+
+.bloque3 img {
+    width: 490px;
+    height: 300px;
+    padding: 0 5px;
+}
+/* FOOTER */
+footer {
+    background-color: #1e1a13;
+    text-align: center;
+}
+
+footer p {
+    padding: 40px 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 300;
+}
